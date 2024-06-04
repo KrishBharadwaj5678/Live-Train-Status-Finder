@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 st.write("<h3 style='color:#FF8A08;'>Plan your trip better with our accurate and reliable train status information.</h3>",unsafe_allow_html=True)
-st.write("<h5>Get real-time updates on train schedules, delays, and cancellations with Train Tracker. Enter your train number to check its current status and stay informed about your journey.</h3>",unsafe_allow_html=True)
+st.write("<h5>Get real-time updates on train schedules, delays, and cancellations with Train Tracker. Enter your train number to check its current status and stay informed about your journey.</h5>",unsafe_allow_html=True)
 
 train_number=st.text_input("Enter the train number")
 
